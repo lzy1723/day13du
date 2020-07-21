@@ -11,6 +11,7 @@ import com.baidu.mapapi.map.MapView;
 import java.util.ArrayList;
 public class MainActivity extends Activity {
     private MapView mMapView = null;
+    private String a="";
     private boolean isPermissionRequested = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
